@@ -34,8 +34,9 @@ html {
 }
 
 /*navbar */
-.navbar {
-  background-color: #343a40 !important;
+.navbar,
+footer  {
+  background-color: hsla(180, 5%, 88%, 0.87) !important;
 }
 
 .navbar a,
@@ -60,8 +61,7 @@ a {
 
 #landing,
 #tools,
-form,
-footer {
+form{
   background-color: #343a40 !important;
   color: #fa5252 !important ;
 }
@@ -92,8 +92,10 @@ footer {
 /*project page*/
 
 #projects h2,
-#contact h2 {
+#contact h2,
+#tools {
   color: #fa5252;
+  text-align: center;
 }
 
 .project-card {
@@ -179,4 +181,9 @@ button:hover {
   .project-card {
     font-size: 0.8rem;
   }
+}
+
+
+.center-paragraph {
+  text-align: center;
 }
