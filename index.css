@@ -62,8 +62,8 @@ a {
 #landing,
 #tools,
 form{
-  background-color: #343a40 !important;
-  color: #fa5252 !important ;
+  background-color:#ffffff  !important;
+  color: #1a0a0a !important ;
 }
 
 .image-profile {
@@ -71,7 +71,7 @@ form{
   height: 15rem;
 }
 .profile-details {
-  color: #fff5f5;
+  color: rgb(11, 79, 11);
 }
 
 .profile-details h2 {
@@ -88,7 +88,9 @@ form{
   line-height: 2rem;
   text-align: center;
 }
-
+h3{
+  color: rgb(11, 79, 11) !important;
+}
 /*project page*/
 
 #projects h2,
