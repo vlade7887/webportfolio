@@ -99,10 +99,16 @@ form{
 }
 
 .project-card {
-  padding: 1rem;
+  
   font-size: 0.8rem;
   text-align: justify;
 }
+
+.card{
+  border: 1px solide red !important;
+  margin: 0 !important;
+}
+
 
 /* tools */
 
